@@ -1,3 +1,5 @@
+package lectures
+
 //https://www.scala-exercises.org/ - scala STD + tutor
 // ООП значение = объект
 // ФП  функция = значение
