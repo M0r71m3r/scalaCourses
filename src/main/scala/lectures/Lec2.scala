@@ -237,7 +237,7 @@ object BreakMe extends App with ImplicitForPrint {
   for (i <- 0 until search.length) {
     breakable {
       if (search.charAt(i) != 'p') {
-        break
+        break()
       } else {
         numPs += 1
       }
