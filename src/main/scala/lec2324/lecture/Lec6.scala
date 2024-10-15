@@ -1,7 +1,7 @@
-package lectures
+package lec2324.lecture
 
-import lectures.OperationsV2.OperationV2
-import magicZone.ImplicitForPrint
+import lec2324.lecture.OperationsV2.OperationV2
+import lec2324.magicZone.ImplicitForPrint
 
 object Operations extends Enumeration {
   type Operation = Value

@@ -1,4 +1,4 @@
-package lectures
+package lec2324.lecture
 
 //https://www.scala-exercises.org/ - scala STD + tutor
 // ООП значение = объект

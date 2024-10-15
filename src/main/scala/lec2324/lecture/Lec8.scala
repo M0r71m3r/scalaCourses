@@ -1,6 +1,6 @@
-package lectures
+package lec2324.lecture
 
-import magicZone.ImplicitForPrint
+import lec2324.magicZone.ImplicitForPrint
 
 object ScalaGenerics extends App with ImplicitForPrint {
   //in java <T>
@@ -201,7 +201,7 @@ object ScalaPieceOfTypeClasses extends App with ImplicitForPrint {
   val e = PersonDocumentUpdated(Inn("3"), Snils("14"))
 
   def processPersonDocumentUpdated(event: PersonDocumentUpdated): Unit = {
-    import lectures.ScalaPieceOfTypeClasses.ValidateTypeClassSyntax._
+    import lec2324.lecture.ScalaPieceOfTypeClasses.ValidateTypeClassSyntax._
     p3.setInn(event.inn.validated)
     p3.setSnils(event.snils.validated)
     p3.print

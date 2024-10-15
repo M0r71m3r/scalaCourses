@@ -1,6 +1,6 @@
-package lectures
+package lec2324.lecture
 
-import magicZone.ImplicitForPrint
+import lec2324.magicZone.ImplicitForPrint
 
 import java.util.concurrent.Executors
 import scala.concurrent.Await

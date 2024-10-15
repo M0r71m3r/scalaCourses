@@ -1,10 +1,10 @@
-package lectures
+package lec2324.lecture
 
-import lectures.ScalaEnumByEnum.Colors.Color
-import lectures.ScalaEnumByEnumWithOverride.ColorsV2.ColorV2
-import lectures.ScalaEnumByEnumWithParams.ColorsV3
-import lectures.ScalaEnumByEnumWithParams.ColorsV3.ColorV3
-import magicZone.ImplicitForPrint
+import lec2324.lecture.ScalaEnumByEnum.Colors.Color
+import lec2324.lecture.ScalaEnumByEnumWithOverride.ColorsV2.ColorV2
+import lec2324.lecture.ScalaEnumByEnumWithParams.ColorsV3
+import lec2324.lecture.ScalaEnumByEnumWithParams.ColorsV3.ColorV3
+import lec2324.magicZone.ImplicitForPrint
 
 import java.util
 import scala.collection.mutable

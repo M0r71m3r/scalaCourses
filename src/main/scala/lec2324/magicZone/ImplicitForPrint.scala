@@ -1,4 +1,4 @@
-package magicZone
+package lec2324.magicZone
 
 /** MAGIC DETECTED */
 trait ImplicitForPrint {

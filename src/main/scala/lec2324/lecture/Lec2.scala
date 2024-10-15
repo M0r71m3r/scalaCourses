@@ -1,6 +1,6 @@
-package lectures
+package lec2324.lecture
 
-import magicZone.ImplicitForPrint
+import lec2324.magicZone.ImplicitForPrint
 
 import scala.annotation.tailrec
 
