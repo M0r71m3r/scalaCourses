@@ -216,3 +216,18 @@ object ScalaCompanionObjects extends App {
   //  p2 == p1
   //  p1.hashCode()
 }
+
+
+object MoreCompanionObjects extends App {
+  class Point()
+  case class Point1() extends Point
+  case class Point2() extends Point
+
+  object Point {
+    def toP(p:Point): Unit = {
+      println(p)
+    }
+  }
+  Point.toP(Point1())
+  Point.toP(Point2())
+}
