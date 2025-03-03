@@ -97,7 +97,7 @@ object Lec8CollectionTicket extends App {
 object Lec8Array extends App {
   val arrayByte = Array[Byte](40, 64, 41)
   arrayByte.map(_.toChar)
-  java.util.Map
+//  java.util.Map
   val str = new String(arrayByte)
   println(str)
   println(arrayByte.map(_.toChar).mkString(""))
